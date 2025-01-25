@@ -7,7 +7,7 @@ function About() {
 
             <div className="box">
                 <h1><i class="fa-solid fa-user-astronaut"></i></h1>
-                <h3>Student Taiga Wilson</h3>
+                <h3>Taiga Wilson</h3>
             </div>
         </div>
     );

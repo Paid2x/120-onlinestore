@@ -8,7 +8,7 @@ function Home() {
                 <h4>Latest Tech, Buy Now!</h4>
 
                 <Link className='btn btn-large btn-primary' to="/catalog">
-                    Click here for products
+                    Check our fresh catalog
                     <i class="fa-solid fa-circle-chevron-right"></i>
                 </Link>
             </div>

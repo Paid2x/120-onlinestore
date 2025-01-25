@@ -6,15 +6,6 @@ function Cart() {
 
     const { cart } = useContext(DataContext);
 
-    function getTotal() {
-        let total = 0;
-        for(let i = 0; i< cart.length; i++) {
-            const prod = cart[i];
-            total += (prod.quantity * prod.price);
-        }
-        return total.toFixed(2);
-    }
-
     return (
         <div className="cart page">
             <h1>Got everything?</h1>
@@ -36,17 +27,12 @@ function Cart() {
 
 
                 </div>
-                {
-                cart.length > 0 ?
                 <div className='side'>
                     <h4>Total</h4>
-                    <h3>${getTotal()}</h3>
+                    <h3>$9,999.00</h3>
 
                     <button className='btn btn-primary'>Proceed to payment</button>
                 </div>
-
-                : null
-}
             </div>
         </div>
     );
